@@ -72,17 +72,17 @@ the Java Development Kit (JDK) installed. If it's not already installed, you can
 2. Install the default JDK package (OpenJDK), if you do not have it installed:  
    `sudo apt install default-jdk`
 3. Once the JDK is installed: Create a directory for the Java project and navigate to it in the terminal.
-   `mkdir InlammningsUppgift`  
-   `cd InlammningsUppgift`
+   `mkdir UserManagementProgram`  
+   `cd UserManagementProgram`
 4. Create a directory structure to match your Java package structure.  
-   `mkdir UserManagementApplication`
-5. Create files: Main.java, User.java and UserList.java. Then copy their respective codes to the files.  
+   `mkdir MyPackage`
+5. Create files: Main.java, User.java and UserList.java, using `nano` command. Then copy their respective codes to the files.  
    `nano Main.java`  
    `nano User.java`  
    `nano UserList.java`
 6. Compile the code using the javac command. Make sure you're inside the Inlammninguppgift directory:  
-   `javac UserManagementApplication/Main.java UserManagementApplication/User.java UserManagementApplication/UserList.java`
+   `javac MyPackage/Main.java MyPackage/User.java MyPackage/UserList.java`
 7. Execute the program by running the Main class
-   `java UserManagementApplication.Main`
+   `java MyPackage.Main`
 
 Finally, the program will execute and the output will be shown on the terminal.
