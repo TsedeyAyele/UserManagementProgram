@@ -8,7 +8,7 @@ public class Main {
         System.out.println("All Users: \n" + userList.printAllUsers());
         System.out.println("---------");
 
-        System.out.println("Add a new user");
+        System.out.println("Add a new user:");
         User user6 = new User(6, "Diana", "diana@gmail.com");
         userList.addUser(user6);
         System.out.println("New user added successfully!\n" +
@@ -39,7 +39,7 @@ public class Main {
             System.out.println("User not found.");
 
         }
-        System.out.println("_____");
+        System.out.println("---------");
 
         System.out.println("Sort users by name: \n" + userList.sortUsersByName());
 
