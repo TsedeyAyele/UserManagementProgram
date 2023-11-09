@@ -1,7 +1,7 @@
 # User Management Application console
 
 This is a console application for managing a list of users.
-It allows you to add, remove, search for sort and list users.
+It allows you to add, remove, search for, sort and list users.
 
 ## How to run the code
 
@@ -25,7 +25,7 @@ This is the model class for users.
 
 ## Clean code
 
-This code exhibits adherence to Clean Code principles, which emphasize writing code that is easy to read, understand, and maintain. Here's an analysis of how these principles are applied:
+This code exhibits adherence to Clean Code principles, which emphasize writing code that is easy to read, understand, and maintain. Below is the analysis of how these principles are applied:
 
 1. Meaningful Variable and Method Names:  
    Variable and method names are generally meaningful and self-explanatory. For example, User, UserList, and UserList methods have clear names that describe their purpose.
@@ -41,7 +41,7 @@ This code exhibits adherence to Clean Code principles, which emphasize writing c
    The code also adheres to Java naming conventions, like using camelCase for method and variable names and PascalCase for class names.
 
 5. Single Responsibility Principle (SRP):  
-   Each method and class in your code appears to have a single, well-defined responsibility. For example, the UserList class manages a list of users and provides methods for adding, removing, searching, and sorting them.
+   Each method and class in the code appears to have a single, well-defined responsibility. For example, the UserList class manages a list of users and provides methods for adding, removing, searching, and sorting them.
 
 6. Encapsulation:  
    The User class encapsulates the user's properties (id, name, and email) and provides access through getter methods. This encapsulation ensures that the internal state is controlled and only accessible through well-defined interfaces.
@@ -64,8 +64,7 @@ This code exhibits adherence to Clean Code principles, which emphasize writing c
 
 ## How to build and run the program in a Linux environment
 
-To build and run the provided Java code on Linux with Ubuntu, you'll need to have
-the Java Development Kit (JDK) installed. If it's not already installed, you can install it using the following commands:
+To build and run the provided Java code on Linux with Ubuntu, you'll need to have the Java Development Kit (JDK) installed. If it's not already installed, you can install it using the following commands:
 
 1. Update the package repository:  
    `sudo apt update`
@@ -80,7 +79,7 @@ the Java Development Kit (JDK) installed. If it's not already installed, you can
    `nano Main.java`  
    `nano User.java`  
    `nano UserList.java`
-6. Compile the code using the javac command. Make sure you're inside the Inlammninguppgift directory:  
+6. Compile the code using the javac command. Make sure you're inside the UserManagementProgram directory:  
    `javac MyPackage/Main.java MyPackage/User.java MyPackage/UserList.java`
 7. Execute the program by running the Main class
    `java MyPackage.Main`

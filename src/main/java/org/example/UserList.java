@@ -4,10 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserList {
-    public static List<User> users;
+    private List<User> users;
 
     public UserList() {
-        users = new ArrayList<>();
+        this.users = new ArrayList<>();
+    }
+
+    /**
+     * Prints all users
+     * @return All users
+     */
+    public List<User> printAllUsers() {
+        return users;
     }
 
     /**
@@ -20,24 +28,16 @@ public class UserList {
 
     /**
      * Removes one product with the specified userId
-     * @param userId The product id to remove
+     * @param idToRemove The product id to remove
      */
-    public boolean removeUser(int userId) {
+    public boolean removeUser(int idToRemove) {
         for (User user : users) {
-            if (user.getId() == userId) {
+            if (user.getId() == idToRemove) {
                 users.remove(user);
                 return true;
             }
         }
         return false;
-    }
-
-    /**
-     * Prints all users
-     * @return All users
-     */
-    public List<User> printAllUsers() {
-        return users;
     }
 
     /**
@@ -59,7 +59,6 @@ public class UserList {
      * @return Sorted list of users
      */
     public List<User> sortUsersByName() {
-
         for (int i = 0; i < users.size() - 1; i++) {
             int minIndex = i;
             for (int j = i + 1; j < users.size(); j++) {
@@ -76,5 +75,3 @@ public class UserList {
         return users;
     }
 }
-
-
