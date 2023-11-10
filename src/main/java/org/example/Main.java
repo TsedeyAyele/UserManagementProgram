@@ -54,7 +54,6 @@ public class Main {
         User user4 = new User(4, "Helen", "helen@gmail.com");
         User user5 = new User(5, "Anna", "anna@gmail.com");
 
-
         userList.addUser(user1);
         userList.addUser(user2);
         userList.addUser(user3);
