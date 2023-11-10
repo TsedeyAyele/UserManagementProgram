@@ -95,7 +95,7 @@ installed. If it's not already installed, you can install it using the following
    `nano UserList.java`
 6. Compile the code using the javac command. Make sure you're inside the UserManagementProgram directory:  
    `javac MyPackage/Main.java MyPackage/User.java MyPackage/UserList.java`
-7. Execute the program by running the Main class
+7. Execute the program by running the Main class  
    `java MyPackage.Main`
 
 As another option, to navigate to the directory and run a program saved on our computer with Ubuntu/Linux:
@@ -103,8 +103,8 @@ As another option, to navigate to the directory and run a program saved on our c
 1. Navigate to the directory:
    cd /mnt/c/Users/46738/Documents/GitHub/UserManagementProgram/src/main/java/org/example
 2. Compile the java code using the `javac` command
-   javac Main.java User.java UserList.java
+   `javac Main.java User.java UserList.java`
 3. Run the program
-   java org.example.Main
+   `java org.example.Main`
 
 Finally, the program will execute and the output will be shown on the terminal.
