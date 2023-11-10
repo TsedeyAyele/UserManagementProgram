@@ -29,7 +29,7 @@ public class User {
     @Override
     public String toString() {
 
-        return "User ID: " + id + ", Name: " + name + ", Email: " + email+ "\n";
+        return "User ID: " + id + ", Name: " + name + ", Email: " + email + "\n";
     }
 }
 
