@@ -100,7 +100,7 @@ installed. If it's not already installed, you can install it using the following
 
 As another option, to navigate to the directory and run a program saved on our computer with Ubuntu/Linux:
 
-1. Navigate to the directory:
+1. Navigate to the directory:  
   `cd /mnt/c/Users/46738/Documents/GitHub/UserManagementProgram/src/main/java/org/example` 
 2. Compile the java code using the `javac` command  
    `javac Main.java User.java UserList.java`
